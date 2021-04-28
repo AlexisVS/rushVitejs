@@ -1,0 +1,20 @@
+{
+  "name": "vite-project",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "tailwind": "postcss ./src/index.css -o ./public/css/style.css",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.2.3"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.13",
+    "postcss-cli": "^8.3.1",
+    "postcss-import": "^14.0.1",
+    "tailwindcss": "^2.1.2"
+  }
+}
